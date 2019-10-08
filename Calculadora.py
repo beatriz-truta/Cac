@@ -5,11 +5,12 @@ while True:
     print("2) Subtração")
     print("3) Multiplicação")
     print("4) Divisão")
-    print("5) Sair")
+    print("5) Fatoração")
+    print("6) Sair")
 
     opcao = input("\nDigite a opção desejada: ")
 
-    if opcao == "5":
+    if opcao == "6":
         break
 
     elif opcao == "1":
@@ -39,3 +40,13 @@ while True:
         n2 = float(input("Digite o segundo número: "))
         divisao = n1 / n2
         print("\nResultado:", divisao, "\n")
+    elif opcao == "5":
+	x = input('Digite um número inteiro: ')
+        i = 1
+       while i <= x:
+          for i in range(x):
+            i = i + 1
+            a = []
+            a.append(i)
+            print(a)
+            break	
